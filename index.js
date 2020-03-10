@@ -8,7 +8,7 @@ app.set('view engine', 'hbs')
 app.use(express.static('public'))
 
 app.get('/', (req, res) => {
-    res.render('index2.hbs', {
+    res.render('index.hbs', {
         title: 'hey there'
     })
 })
