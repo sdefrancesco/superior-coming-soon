@@ -69,3 +69,9 @@ p {
     border-radius: 3px;
     border: 1px solid #8080801a;
 }
+
+@media (max-width:400px) {
+    .helpbox {
+        display: none;
+    }
+}
